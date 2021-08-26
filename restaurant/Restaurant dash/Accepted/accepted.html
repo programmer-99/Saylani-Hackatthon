@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Accepted Dash</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./accepted.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    
+  </head>
+  <body >
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h2>Free Restaurant</h2>
+        </a>
+        <div class="d-flex">
+          <button type="button" class="btn btn-outline-success bg-success text-white add-car-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Add Card</button>
+          <button class="btn btn-outline-success bg-success text-white" type="submit" onclick="lagout()">Logout</button>
+        </div>
+      </div>
+        </div>
+      </nav>
+
+    
+      <!-- ////cards -->
+      
+      
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../restaurantdash.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../pending/pending.html">Pending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./accepted.html">Rejected</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="../Delivered/delivereddash.html">Delivered</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link invisible" href="#"></a>
+        </li>
+        <li class="nav-item ">
+          <p class="text-white name">Welcome Ahmed Mustafa rejected</p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+<div class="container">
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 " style="margin-top: 5%;" id="div">
+
+    </div>
+
+</div>
+
+      
+      
+      
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+  https://firebase.google.com/docs/web/setup#available-libraries -->
+  
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBCe9OCMMD1EmN6v4NUsXbF9DRBMR1HmRY",
+    authDomain: "hackathon-df9c5.firebaseapp.com",
+    projectId: "hackathon-df9c5",
+    storageBucket: "hackathon-df9c5.appspot.com",
+    messagingSenderId: "231377146213",
+    appId: "1:231377146213:web:5ecc03b98e15c97267118c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+  var storage = firebase.storage();
+  
+</script>
+
+
+<script src="./accepted.js"></script>
+
+</body>
+</html>

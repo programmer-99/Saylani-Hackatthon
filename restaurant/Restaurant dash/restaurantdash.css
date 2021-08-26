@@ -1,0 +1,33 @@
+.dash{
+    margin-top: 10px;
+    border: 2px solid black;  
+    width: 50% ;
+    height: 400px; 
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.add-car-btn{
+    margin-right: 6px;
+}
+#currentusername{
+    margin-top: 47px !important;
+    margin-bottom: 54px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    height: 275px !important;
+}
+.name{
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: bolder !important;
+    margin-left: 20px !important;
+}
+.img1{
+    height: 80px !important;
+}

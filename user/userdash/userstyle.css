@@ -1,0 +1,15 @@
+.dash{
+    margin-top: 10px;
+    border: 2px solid black;  
+    width: 50% ;
+    height: 400px; 
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.add-car-btn{
+    margin-right: 6px;
+}
+.btn1{
+    margin-right: 5px !important;
+}

@@ -1,0 +1,45 @@
+body{
+    background-image: url("../../images/signup3.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    /* padding: 220px 0px 280px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.6;
+    
+}
+.color{
+    background-color: rgba(34, 31, 31, 0.7);
+    width: 50% !important;
+    
+}
+input:focus{
+    border-color: red;
+    color: black;
+}
+.color-same{
+    color: black;
+    font-weight: bolder;
+}
+.text-black{
+    color: black;
+    font-weight: bolder;
+}
+.submitBtn{
+    margin-top: 30px;
+    
+}
+.btn-primary1{
+    font-weight: bold;
+}
+
+.signup-form{
+    width: 50% !important;
+    margin: 0 auto !important;
+}
+.head{
+    margin-top: 30px;
+}

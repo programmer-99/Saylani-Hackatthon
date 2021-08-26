@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Login Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="Restaurantlogin.js"></script>
+    <link rel="stylesheet" href="RestaurantLogin.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+  </head>
+<body>
+    <div class="container">
+        <form class="" onsubmit="loginAccount(event)" id="loginForm">
+            <fieldset>
+                <legend class="text-center fs-1 text-capitalize fw-bold login text-black">Restaurant Login</legend>
+                <div class="mb-3">
+                <label for="username" class="form-label text-black">Email</label>
+                <input type="text" class="form-control  back-input" id="username" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                <label for="Password" class="form-label text-black ">Password</label>
+                <input type="password" class="form-control back-input" id="password" placeholder="Password">
+                </div>
+                <div><a href="../RestaurantSignup/restaurantSignup.html" class="link">Click for signup</a></div>
+               <button type="submit" class="btn btn-primary change"><a id="change">Login</a></button>
+                
+        </fieldset>
+        </form>
+    </div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBCe9OCMMD1EmN6v4NUsXbF9DRBMR1HmRY",
+    authDomain: "hackathon-df9c5.firebaseapp.com",
+    projectId: "hackathon-df9c5",
+    storageBucket: "hackathon-df9c5.appspot.com",
+    messagingSenderId: "231377146213",
+    appId: "1:231377146213:web:5ecc03b98e15c97267118c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+
+</script>
+
+
+
+</body>
+</html>
